@@ -1,0 +1,62 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  -webkit-scrollbar {
+    width: 0 !important;
+  }
+}
+
+header{
+  position: fixed;
+  top:0;
+  left:0;
+  width:100M;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+.content {
+  overflow: auto;
+  height: 100%;
+  min-height: 100%;
+}
+
+.mainContainer {
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+}
+
+.wrapper-item {
+  width: 50%;
+  transition: transform 1s ease-in-out;
+  align-content: center;
+  height: 100%;
+  position: absolute;
+}
+
+#containerRight {
+  border-left: 1px solid grey;
+  left: 50%;
+  /* nb items here */
+  top: calc(-100% * 2); 
+}
+
+.red {
+  background: url(http://cloud.niklausgerber.com/1b0r2D2Z1y0J/dark-red.png)
+    center center no-repeat scroll #711331;
+}
+
+.green {
+  background: url(http://cloud.niklausgerber.com/1a2n2I3J1h0M/red.png) center
+    center no-repeat scroll #438a4e;
+}
+
+.blue {
+  background: url(http://cloud.niklausgerber.com/1X180T1X2v3d/dark-orange.png)
+  center center no-repeat scroll #629ed8;
+}
